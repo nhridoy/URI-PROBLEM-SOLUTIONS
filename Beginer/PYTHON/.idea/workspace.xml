@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15c039a5-7960-4ffd-86b0-96a0cea4839c" name="Default Changelist" comment="1013">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="15c039a5-7960-4ffd-86b0-96a0cea4839c" name="Default Changelist" comment="1014" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609052623692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1014 test">
+      <created>1609053612486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609053612486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1014">
+      <created>1609053688442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609053688442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1013" />
-    <option name="LAST_COMMIT_MESSAGE" value="1013" />
+    <MESSAGE value="1014 test" />
+    <MESSAGE value="1014" />
+    <option name="LAST_COMMIT_MESSAGE" value="1014" />
   </component>
 </project>

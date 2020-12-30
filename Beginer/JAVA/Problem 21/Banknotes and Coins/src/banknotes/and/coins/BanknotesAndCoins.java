@@ -7,6 +7,7 @@
 package banknotes.and.coins;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 /**
  *
@@ -23,56 +24,58 @@ public class BanknotesAndCoins {
         int res;
         
         n = input.nextDouble();
-         if (n >= 0 && n <= 1000000.00) {
+        res = (int)n/100;
+        n -= (res*100);
         System.out.println("NOTAS:");
-        res = (int) n/100;
         System.out.println(res+" nota(s) de R$ 100.00");
         
-        n = n-(res*100);
         res = (int)n/50;
+        n -= (res*50);
         System.out.println(res+" nota(s) de R$ 50.00");
         
-        n = n-(res*50);
         res = (int)n/20;
+        n -= (res*20);
         System.out.println(res+" nota(s) de R$ 20.00");
         
-        n = n-(res*20);
         res = (int)n/10;
+        n -= (res*10);
         System.out.println(res+" nota(s) de R$ 10.00");
         
-        n = n-(res*10);
         res = (int)n/5;
+        n -= (res*5);
         System.out.println(res+" nota(s) de R$ 5.00");
         
-        n = n-(res*5);
         res = (int)n/2;
+        n -= (res*2);
         System.out.println(res+" nota(s) de R$ 2.00");
         
-        System.out.println("MOEDAS:");
-        n = n-(res*2);
         res = (int)n/1;
+        n -= (res*1);
+        System.out.println("MOEDAS:");
         System.out.println(res+" moeda(s) de R$ 1.00");
         
-        n = n-(res*1);
-        res = (int) (n/.50);
+        res = (int)(n/.50);
+        n -= (res*.50);
         System.out.println(res+" moeda(s) de R$ 0.50");
         
-        n = n-(res*.50);
-        res = (int) (n/.25);
+        res = (int)(n/.25);
+        n -= (res*.25);
         System.out.println(res+" moeda(s) de R$ 0.25");
         
-        n = n-(res*.25);
-        res = (int) (n/.10);
+        res = (int)(n/.10);
+        n -= (res*.10);
         System.out.println(res+" moeda(s) de R$ 0.10");
         
-        n = n-(res*.10);
-        res = (int) (n/.05);
+        res = (int)(n/.05);
+        n -= (res*.05);
         System.out.println(res+" moeda(s) de R$ 0.05");
         
-        n = n-(res*.05);
-        res = (int) (n/.01);
-        System.out.println(res+" moeda(s) de R$ 0.01\n");
-         }
+        res = (int)(n/.01);
+        n -= (res*.01);
+        DecimalFormat df = new DecimalFormat("0.00");
+        String formate = df.format(n); 
+        n = Double.parseDouble(formate);
+        System.out.println(res+(int)(n/0.01)+" moeda(s) de R$ 0.01");
     }
     
 }

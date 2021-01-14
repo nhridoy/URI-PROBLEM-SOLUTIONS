@@ -5,5 +5,5 @@ for i in range(n):
     n1 = float(n1)
     n2 = float(n2)
     n3 = float(n3)
-    s = (n1*2 + n2*3 + n3*5)/10
-    print("%.1f" % s)
+    avg = (n1*2 + n2*3 + n3*5)/10
+    print("%.1f" % avg)

@@ -39,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.1142 PUM">
+  <component name="RunManager" selected="Python.1144 Logical Sequence">
     <configuration name="1133 Rest of a Division" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYTHON" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1142 PUM" />
         <item itemvalue="Python.1144 Logical Sequence" />
+        <item itemvalue="Python.1142 PUM" />
         <item itemvalue="Python.1143 Squared and Cubic" />
         <item itemvalue="Python.1134 Type of Fuel" />
         <item itemvalue="Python.1133 Rest of a Division" />

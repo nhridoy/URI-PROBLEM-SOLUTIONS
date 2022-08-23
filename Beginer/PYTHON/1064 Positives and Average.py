@@ -1,6 +1,6 @@
 c = 0
 s = 0
-for i in range(6):
+for _ in range(6):
     n = float(input())
     if n > 0:
         c = c + 1

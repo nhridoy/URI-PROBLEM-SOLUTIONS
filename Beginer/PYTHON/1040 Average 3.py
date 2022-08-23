@@ -4,10 +4,10 @@ b = float(b)
 c = float(c)
 d = float(d)
 
-a = a*2
-b = b*3
-c = c*4
-d = d*1
+a *= 2
+b *= 3
+c *= 4
+d *= 1
 
 avg = (a + b + c + d)/10
 

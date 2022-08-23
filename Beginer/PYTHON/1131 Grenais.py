@@ -12,14 +12,11 @@ def match():
 
     if inter > gremio:
         inter_win += 1
-        total_match += 1
     elif gremio > inter:
         gremio_win += 1
-        total_match += 1
     else:
         draw += 1
-        total_match += 1
-
+    total_match += 1
     print("Novo grenal (1-sim 2-nao)")
     n = int(input())
     if n == 1:

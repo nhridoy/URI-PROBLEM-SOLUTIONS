@@ -7,7 +7,7 @@ pii = 3.14159
 triangle = 0.5 * a * c
 circle = pii * c * c
 trapezium = ((a + b) / 2) * c
-square = b * b
+square = b**2
 rectangle = a * b
 
 print("TRIANGULO: %.3f" % triangle)

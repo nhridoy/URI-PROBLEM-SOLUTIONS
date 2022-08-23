@@ -6,16 +6,9 @@ if x < y:
         if i % 13 != 0:
             s += i
 
-    print(s)
-elif y < x:
-    for i in range(y, x + 1):
-        if i % 13 != 0:
-            s += i
-
-    print(s)
 else:
     for i in range(y, x + 1):
         if i % 13 != 0:
             s += i
 
-    print(s)
+print(s)

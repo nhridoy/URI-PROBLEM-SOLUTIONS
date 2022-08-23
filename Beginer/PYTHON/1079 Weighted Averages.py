@@ -1,6 +1,6 @@
 n = int(input())
 
-for i in range(n):
+for _ in range(n):
     n1, n2, n3 = input().split()
     n1 = float(n1)
     n2 = float(n2)

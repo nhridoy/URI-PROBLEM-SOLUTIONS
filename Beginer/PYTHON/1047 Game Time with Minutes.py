@@ -11,9 +11,6 @@ if final_hour > initial_hour:
         if minute > 60:
             minute = minute - 60
             hour = hour + 1
-            print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
-        else:
-            print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
     else:
         minute = (60 - initial_minute) + final_minute
         if minute < 0:
@@ -21,15 +18,10 @@ if final_hour > initial_hour:
             hour = hour - (initial_minute // 60) - 1
             if hour < 0:
                 hour = 24 + hour
-                print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
-            else:
-                print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
         elif minute == 60:
             minute = 0
-            print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
         else:
             hour = hour - 1
-            print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
 else:
     hour = (24 - initial_hour) + final_hour
     if final_minute > initial_minute:
@@ -38,12 +30,7 @@ else:
             hour = 0
             if minute > 60:
                 minute = minute - 60
-                hour = hour + 1
-                print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
-            else:
-                print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
-        else:
-            print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
+                hour += 1
     else:
         minute = (60 - initial_minute) + final_minute
         if minute < 0:
@@ -51,12 +38,9 @@ else:
             hour = hour - (initial_minute // 60) - 1
             if hour < 0:
                 hour = 24 + hour
-                print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
-            else:
-                print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
         elif minute == 60:
             minute = 0
-            print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
         else:
             hour = hour - 1
-            print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")
+
+print("O JOGO DUROU", hour, "HORA(S) E", minute, "MINUTO(S)")

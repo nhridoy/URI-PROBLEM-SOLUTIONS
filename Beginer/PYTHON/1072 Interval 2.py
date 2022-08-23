@@ -2,7 +2,7 @@ n = int(input())
 interval = 0
 not_interval = 0
 
-for i in range(n):
+for _ in range(n):
     num = int(input())
     if 10 <= num <= 20:
         interval = interval + 1

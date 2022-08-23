@@ -3,7 +3,7 @@ o = 0
 p = 0
 n = 0
 
-for i in range(5):
+for _ in range(5):
     num = int(input())
     if num < 0:
         n = n + 1

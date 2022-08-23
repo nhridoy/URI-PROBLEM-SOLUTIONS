@@ -3,7 +3,7 @@ total_animal = 0
 rabbit = 0
 rat = 0
 frog = 0
-for i in range(n):
+for _ in range(n):
     animal_number, name = input().split()
     animal_number = int(animal_number)
     total_animal = total_animal + animal_number
